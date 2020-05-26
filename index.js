@@ -1,5 +1,3 @@
-const testVar = {}
+function superbowlWin(array) { let champion = array.find((e) => e.result == "W");
 
-function testFunc() {
-  return "hi"
-}
+return champion ? champion.year : undefined}
